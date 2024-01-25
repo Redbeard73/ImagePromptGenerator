@@ -1,8 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImagePromptGenerator", "ImagePromptGenerator\ImagePromptGenerator.csproj", "{8368CF30-F900-479C-888A-171DCBA62C1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{3D825319-60BD-49E6-88F5-E8102B9C9183}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8368CF30-F900-479C-888A-171DCBA62C1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8368CF30-F900-479C-888A-171DCBA62C1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8368CF30-F900-479C-888A-171DCBA62C1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8368CF30-F900-479C-888A-171DCBA62C1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D825319-60BD-49E6-88F5-E8102B9C9183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D825319-60BD-49E6-88F5-E8102B9C9183}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D825319-60BD-49E6-88F5-E8102B9C9183}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D825319-60BD-49E6-88F5-E8102B9C9183}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
