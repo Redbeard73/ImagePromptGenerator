@@ -12,7 +12,8 @@ namespace ConsoleApp
             var host = CreateHostBuilder(args).Build();
 
             // Resolve the service from the service provider
-            var service = host.Services.GetRequiredService<IImagePromptService>();
+            var ImagePromptService = host.Services.GetRequiredService<IImagePromptService>();
+            var PromptDataService = host.Services.GetRequiredService<IPromptDataService>();
  
 
             // Keep the console window open
@@ -26,6 +27,7 @@ namespace ConsoleApp
                 .ConfigureServices((_, services) =>
                 {
                     services.AddTransient<IImagePromptService, ImagePromptService>();
+                    services.AddTransient<IPromptDataService, PromptDataService>();
                     // Add other services here
                 });
     }
